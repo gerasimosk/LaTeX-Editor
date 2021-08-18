@@ -105,3 +105,8 @@ functionalities, and the contents of the different pattern templates.
 <p align="center">
   <img width="600" height="400" src="./UML Diagrams/Diagram5.png">
 </p>
+  
+## Acceptance Tests
+The validation of an agile project involves the development of acceptance tests that
+correspond to the different user stories of the project. Typically, a test compares an expected situation
+with an actual situation to see if they match. Tests was developed using <b>JUnit - Test Framework</b>.
