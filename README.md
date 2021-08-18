@@ -39,18 +39,18 @@ starting point for the document editing process. In particular, we consider the 
 
 ## Functional Requirements / User Stories
 
-- <b>User Story 1</b>: User want to create a new Latex document, based on a particular Latex document
-template. If I don't specify a template, the application should create an empty Latex document.
-- <b>User Story 2</b>: User want to edit the contents of the Latex document, via the application's user
-interface.
-- <b>User Story 3</b>: User want to add Latex commands in the Latex document automatically using the
+<li><b>User Story 1</b>: User want to create a new Latex document, based on a particular Latex document
+template. If I don't specify a template, the application should create an empty Latex document.</li>
+<li><b>User Story 2</b>: User want to edit the contents of the Latex document, via the application's user
+interface.</li>
+<li><b>User Story 3</b>: User want to add Latex commands in the Latex document automatically using the
 application user interface. A minimal set of Latex commands that I want to use is given in Table 1.
 Some of the commands are allowed only for specific types of Latex documents. The application
-should notify me if I try to add Latex commands that are not allowed in the Latex document.
-- <b>User Story 4</b>: User should be able to activate an automatic version tracking mechanism that keeps
+should notify me if I try to add Latex commands that are not allowed in the Latex document.</li>
+<li><b>User Story 4</b>: User should be able to activate an automatic version tracking mechanism that keeps
 track of the document evolution history, at any time. The history consists of a sequence of
 subsequent versions of the Latex document. The mechanism should provide at least two alternative
-storage strategies for the document evolution history:
+storage strategies for the document evolution history:</li>
 <dl>
   <dd><b>Volatile (default strategy)</b>: for each document change the mechanism keeps the previous
 version of the document in a main memory list of subsequent document versions.</dd>
