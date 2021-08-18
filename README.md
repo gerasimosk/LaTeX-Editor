@@ -9,6 +9,7 @@ simple Latex editor for inexperienced Latex users. The goal of the editor is to 
 commands for the preparation of Latex documents. One of the prominent features that distinguishes
 the LatexEditor from other similar applications is its multi-strategy version tracking functionalities that
 enable undo and redo actions.
+</br>
 <b>Project built with respect of design patterns</b>.
 
 </br>
