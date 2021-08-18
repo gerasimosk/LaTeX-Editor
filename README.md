@@ -52,28 +52,25 @@ track of the document evolution history, at any time. The history consists of a 
 subsequent versions of the Latex document. The mechanism should provide at least two alternative
 storage strategies for the document evolution history:</li>
 <dl>
-  <dd><b>Volatile (default strategy)</b>: for each document change the mechanism keeps the previous
+  <dd>- <b>Volatile (default strategy)</b>: for each document change the mechanism keeps the previous
 version of the document in a main memory list of subsequent document versions.</dd>
-  <dd><b>Stable</b>: for each document change the mechanism keeps the previous version of the
+  <dd>- <b>Stable</b>: for each document change the mechanism keeps the previous version of the
 document on disk storage.</dd>
 </dl>
-- <b>User Story 5</b>: User should be able to change the storage strategy of the version tracking mechanism
-at any time.
+<li><b>User Story 5</b>: User should be able to change the storage strategy of the version tracking mechanism
+at any time.</li>
 <dl>
-  <dd>If I change from Volatile to Stable the application should store the document evolution
+  <dd>- If I change from Volatile to Stable the application should store the document evolution
 history on disk storage.</dd>
-  <dd>If I change from Stable to Volatile the application should load the document evolution
+  <dd>- If I change from Stable to Volatile the application should load the document evolution
 history from disk storage to main memory.</dd>
 </dl>
-- <b>User Story 6</b>: User should be able to disable the version tracking mechanism at any time.
-</br>
-- <b>User Story 7</b>: User should be able to rollback to a previous version of the Latex document based on
+<li><b>User Story 6</b>: User should be able to disable the version tracking mechanism at any time.</li>
+<li><b>User Story 7</b>: User should be able to rollback to a previous version of the Latex document based on
 the document evolution history. The application should notify me if I try to use the rollback action
-and the version tracking mechanism has not been enabled before.
-</br>
-- <b>User Story 8</b>: User should be able to save the Latex document on disk storage.
-</br>
-- <b>User Story 9</b>: User should be able to load the Latex document from disk storage.
+and the version tracking mechanism has not been enabled before.</li>
+<li><b>User Story 8</b>: User should be able to save the Latex document on disk storage.</li>
+<li><b>User Story 9</b>: User should be able to load the Latex document from disk storage.</li>
 
 ## Non Functional Requirements
 
