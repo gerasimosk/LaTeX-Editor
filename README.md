@@ -74,14 +74,14 @@ and the version tracking mechanism has not been enabled before.</li>
 
 ## Non Functional Requirements
 
-<b>Extensibility</b>: In software engineering, extensibility is a design principle where the implementation
+- <b>Extensibility</b>: In software engineering, extensibility is a design principle where the implementation
 takes future growth into consideration. In the case of this project, extensibility concerns the supported
 Latex templates, commands, version tracking strategies. Specifically, the application should be designed
 such as the addition of new templates and strategies is as simple as possible and according to the well
 known open-closed principle. To this end, several GoF design patterns can be considered <b>(Factory,
 Command, Prototype, Strategy, etc.)</b>
 </br>
-<b>Usability<b>: In software engineering usability concerns the ease of use and learnability. In the context
+- <b>Usability<b>: In software engineering usability concerns the ease of use and learnability. In the context
 of this project the application should enable the patterns specification via a simple and user-intuitive
 interface. The application should also provide help, in the form of user guidelines, concerning its main
 functionalities, and the contents of the different pattern templates.
