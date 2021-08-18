@@ -103,11 +103,12 @@ documents and the interaction with the user.</li>
 view elements. In other words, these classes realize the reactions of the application to the user
 input.</li>
 
-## UML Diagrams
-
+</br>
 <p align="center">
   <img width="400" height="250" src="./UML Diagrams/Diagram1.png">
 </p>
+
+## UML Diagrams
 
 <p align="center">
   <img width="600" height="400" src="./UML Diagrams/Diagram2.png">
