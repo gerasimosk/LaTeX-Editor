@@ -27,6 +27,7 @@ particular version of the Latex document is characterized by the following basic
 <li>A version ID.</li>
 <li>The contents of the document.</li>
 
+</br>
 Typically the contents of the Latex document contain Latex commands that specify the title (\title{...}) of
 the document, the author (\author{...}), the (\date{}), and allow to structure the document properly
 (e.g., \chapter{..}, \section{...}, \subsection{...}, etc.).
