@@ -65,10 +65,13 @@ history on disk storage.</dd>
 history from disk storage to main memory.</dd>
 </dl>
 - <b>User Story 6</b>: User should be able to disable the version tracking mechanism at any time.
+</br>
 - <b>User Story 7</b>: User should be able to rollback to a previous version of the Latex document based on
 the document evolution history. The application should notify me if I try to use the rollback action
 and the version tracking mechanism has not been enabled before.
+</br>
 - <b>User Story 8</b>: User should be able to save the Latex document on disk storage.
+- </br>
 - <b>User Story 9</b>: User should be able to load the Latex document from disk storage.
 
 ## Non Functional Requirements
