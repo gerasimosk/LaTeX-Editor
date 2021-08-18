@@ -71,7 +71,7 @@ the document evolution history. The application should notify me if I try to use
 and the version tracking mechanism has not been enabled before.
 </br>
 - <b>User Story 8</b>: User should be able to save the Latex document on disk storage.
-- </br>
+</br>
 - <b>User Story 9</b>: User should be able to load the Latex document from disk storage.
 
 ## Non Functional Requirements
