@@ -86,7 +86,7 @@ functionalities, and the contents of the different pattern templates.
 ## UML Diagrams
 
 <p align="center">
-  <img width="600" height="400" src="./UML Diagrams/Diagram1.png">
+  <img width="400" height="250" src="./UML Diagrams/Diagram1.png">
 </p>
 
 <p align="center">
