@@ -87,6 +87,22 @@ of this project the application should enable the patterns specification via a s
 interface. The application should also provide help, in the form of user guidelines, concerning its main
 functionalities, and the contents of the different pattern templates.
 
+## Software Architecture & Specifications
+
+From an architecture point of view, is it a standard practice to clearly separate the application logic that
+is responsible for the management/manipulation of the data from the GUI logic that realizes the
+graphical representation of the data and the interaction with the user. Model-View-Controller (MVC) is
+well-known pattern that allows us to do so. MVC has several variants. However, the main idea is to
+separate the application in three parts/packages:
+
+<li><b>model</b>: This package comprises all the classes that are responsible for the representation and
+the management of the documents.</li>
+<li><b>view</b>: This package includes all the classes that are responsible for the visualization of the
+documents and the interaction with the user.</li>
+<li><b>controller</b>: This package includes classes that control the data flow between the model and the
+view elements. In other words, these classes realize the reactions of the application to the user
+input.</li>
+
 ## UML Diagrams
 
 <p align="center">
